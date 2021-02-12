@@ -23,7 +23,7 @@ if (user == user1) {
 	alert("Ok. Ora inserisci la password")
 } else {
 	alert("Username non trovato")
-	window.location="www.google.com";
+	window.location="failus.html";
 }
 
 var password = window.prompt("Inserisci la tua password")
@@ -38,7 +38,7 @@ if (password == pass1) {
 	alert("Ok. Ora inserisci la password")
 } else {
 	alert("Password errata")
-	window.location="www.google.com";
+	window.location="failpass.html";
 }
 
 

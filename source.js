@@ -23,7 +23,6 @@ if (user == user1) {
 	alert("Ok. Ora inserisci la password")
 } else {
 	alert("Username non trovato")
-	window.location="failus.html";
 }
 
 var password = window.prompt("Inserisci la tua password")
@@ -34,15 +33,15 @@ if (password == pass1) {
 	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if  (password == pass2) {
 	alert("Accesso eseguito")
-		document.getElementById("annunci").innerHTML = "Annunci";
+    document.getElementById("annunci").innerHTML = "Annunci";
 	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if (password == pass3) {
 	alert("Accesso eseguito")
-		document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("annunci").innerHTML = "Annunci";
 	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if (password == pass4) {
 	alert("Accesso eseguito")
-		document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("annunci").innerHTML = "Annunci";
 	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else {
 	alert("Password errata")

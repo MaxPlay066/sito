@@ -23,7 +23,7 @@ if (user == user1) {
 	alert("Ok. Ora inserisci la password")
 } else {
 	alert("Username non trovato")
-	window.location="brutal.html";
+	window.location="brutal.htm";
 }
 
 var password = window.prompt("Inserisci la tua password")

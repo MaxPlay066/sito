@@ -29,13 +29,21 @@ if (user == user1) {
 var password = window.prompt("Inserisci la tua password")
 
 if (password == pass1) {
-	alert("Ok. Ora inserisci la password")
+	alert("Accesso eseguito")
+	document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if  (password == pass2) {
-	alert("Ok. Ora inserisci la password")
+	alert("Accesso eseguito")
+		document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if (password == pass3) {
-	alert("Ok. Ora inserisci la password")
+	alert("Accesso eseguito")
+		document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else if (password == pass4) {
-	alert("Ok. Ora inserisci la password")
+	alert("Accesso eseguito")
+		document.getElementById("annunci").innerHTML = "Annunci";
+	document.getElementById("lista").innerHTML = "Nessun annuncio";
 } else {
 	alert("Password errata")
 	window.location="failpass.html";
